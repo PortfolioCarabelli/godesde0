@@ -8,9 +8,13 @@ package main
 // )
 
 import (
+	"fmt"
+
 	"github.com/PortfolioCarabelli/godesde0/variables"
 )
 
 func main() {
-	variables.MostrarEnteros()
+	estado, text := variables.ConviertoaTexto(1588)
+	fmt.Println(estado)
+	fmt.Println(text)
 }
