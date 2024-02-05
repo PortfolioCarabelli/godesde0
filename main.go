@@ -9,7 +9,8 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+
+	ejercicios "github.com/PortfolioCarabelli/godesde0/Ejercicios"
 )
 
 func main() {
@@ -17,18 +18,23 @@ func main() {
 	// fmt.Println(estado)
 	// fmt.Println(text)
 
-	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
-		fmt.Println("No es linux", os)
-	} else {
-		fmt.Println("Es Windows")
-	}
+	// if os := runtime.GOOS; os == "Linux." || os == "OS X." {
+	// 	fmt.Println("No es linux", os)
+	// } else {
+	// 	fmt.Println("Es Windows")
+	// }
 
-	switch os := runtime.GOOS; os {
-	case "linux":
-		fmt.Println("esto es linux")
-	case "windows":
-		fmt.Println("esto es Windows")
-	default:
-		fmt.Printf("%s \n ", os)
-	}
+	// switch os := runtime.GOOS; os {
+	// case "linux":
+	// 	fmt.Println("esto es linux")
+	// case "windows":
+	// 	fmt.Println("esto es Windows")
+	// default:
+	// 	fmt.Printf("%s \n ", os)
+	// }
+
+	num, text := ejercicios.ConvertiraEntero("1000")
+	fmt.Println(num)
+	fmt.Println(text)
+
 }
