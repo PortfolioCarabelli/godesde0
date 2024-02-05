@@ -1,17 +1,15 @@
 package main
 
+import (
+	"github.com/PortfolioCarabelli/godesde0/files"
+)
+
 // si se importa 1 paquete es asi
 // import "fmt"
 // si tuviera que importar varios
 // import (
 // 	"fmt"
 // )
-
-import (
-	"fmt"
-
-	ejercicios "github.com/PortfolioCarabelli/godesde0/Ejercicios"
-)
 
 func main() {
 	// estado, text := variables.ConviertoaTexto(1588)
@@ -33,8 +31,14 @@ func main() {
 	// 	fmt.Printf("%s \n ", os)
 	// }
 
-	num, text := ejercicios.ConvertiraEntero("1000")
-	fmt.Println(num)
-	fmt.Println(text)
+	// num, text := ejercicios.ConvertiraEntero("1000")
+	// fmt.Println(num)
+	// fmt.Println(text)
+
+	// teclado.IngresoNumeros()
+
+	// iteraciones.Iterar()
+
+	files.LeoArchivoOs()
 
 }
