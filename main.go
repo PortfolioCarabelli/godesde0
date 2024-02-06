@@ -1,6 +1,6 @@
 package main
 
-import "github.com/PortfolioCarabelli/godesde0/webserver"
+import "github.com/PortfolioCarabelli/godesde0/middleware"
 
 // si se importa 1 paquete es asi
 // import "fmt"
@@ -54,5 +54,5 @@ func main() {
 	// 	// esto es un await
 	// 	<-canal1
 	// }()
-	webserver.MiWebServer()
+	middleware.MiMiddleware()
 }
