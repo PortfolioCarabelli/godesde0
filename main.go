@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/PortfolioCarabelli/godesde0/files"
+	"github.com/PortfolioCarabelli/godesde0/mapas"
 )
 
 // si se importa 1 paquete es asi
@@ -39,6 +39,7 @@ func main() {
 
 	// iteraciones.Iterar()
 
-	files.LeoArchivoOs()
+	// files.LeoArchivoOs()
 
+	mapas.MostrarMapas()
 }
