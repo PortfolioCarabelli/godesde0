@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/PortfolioCarabelli/godesde0/mapas"
+	"github.com/PortfolioCarabelli/godesde0/ejer_interfaces"
+	"github.com/PortfolioCarabelli/godesde0/models"
 )
 
 // si se importa 1 paquete es asi
@@ -41,5 +42,11 @@ func main() {
 
 	// files.LeoArchivoOs()
 
-	mapas.MostrarMapas()
+	Pedro := new(models.Hombre)
+
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Maria := new (models.Mujer)
+
+	ejer_interfaces.HumanosRespirando(Maria)
 }
