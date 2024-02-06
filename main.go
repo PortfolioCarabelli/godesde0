@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/PortfolioCarabelli/godesde0/ejer_interfaces"
-	"github.com/PortfolioCarabelli/godesde0/models"
+	"github.com/PortfolioCarabelli/godesde0/defer_panic"
 )
 
 // si se importa 1 paquete es asi
@@ -42,11 +41,14 @@ func main() {
 
 	// files.LeoArchivoOs()
 
-	Pedro := new(models.Hombre)
+	// Pedro := new(models.Hombre)
 
-	ejer_interfaces.HumanosRespirando(Pedro)
+	// ejer_interfaces.HumanosRespirando(Pedro)
 
-	Maria := new (models.Mujer)
+	// Maria := new (models.Mujer)
 
-	ejer_interfaces.HumanosRespirando(Maria)
+	// ejer_interfaces.HumanosRespirando(Maria)
+
+	defer_panic.EjemploPanic()
 }
+
