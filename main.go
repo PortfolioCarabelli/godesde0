@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/PortfolioCarabelli/godesde0/defer_panic"
-)
+import "github.com/PortfolioCarabelli/godesde0/webserver"
 
 // si se importa 1 paquete es asi
 // import "fmt"
@@ -49,6 +47,12 @@ func main() {
 
 	// ejer_interfaces.HumanosRespirando(Maria)
 
-	defer_panic.EjemploPanic()
+	// defer_panic.EjemploPanic()
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLentoo("Federico Carabelli", canal1)
+	// defer func() {
+	// 	// esto es un await
+	// 	<-canal1
+	// }()
+	webserver.MiWebServer()
 }
-
